@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace ProjectLiberty
 {
-	abstract class LotroRace
+	public abstract class LotroRace
 	{
+		public enum LotroRaceType { MAN, ELF, HOBBIT, DWARF, BEORNING, HIGHELF };
+		protected LotroRaceType _type;
 		protected String _name;
 		protected Dictionary<EStat, double> bonus;
 		protected Dictionary<EStat, double> baseStat;

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ProjectLiberty
 {
-	enum EStat { Morale, Power, Armor, Wrath, Might, Vitality, Agility, Will, Fate, NCMR, ICMR, NCPR, ICPR,
+	public enum EStat { Morale, Power, Armor, Wrath, Might, Vitality, Agility, Will, Fate, NCMR, ICMR, NCPR, ICPR,
 	            PhysicalMastery, TacticalMastery, PhysicalMitigation, TacticalMitigation, DiseaseResistance,
 				PoisonResistance, FearResistance, WoundResistance, Block, Evade, Parry};
 
-	class LotroStat
+	public class LotroStat
 	{
 		private double _morale;
 		private double _power;

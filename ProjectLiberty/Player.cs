@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjectLiberty
 {
-	class Player
+	public class Player
 	{
 		private LotroStat _stats;
 		private String _name;

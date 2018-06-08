@@ -11,12 +11,21 @@ namespace ProjectLiberty
 		public Hunter()
 		{
 			_name = "Hunter";
+			_type = LotroClassType.HUNTER;
 		}
 		public override String Name
 		{
 			get
 			{
 				return _name;
+			}
+		}
+
+		public override LotroClassType Type
+		{
+			get
+			{
+				return _type;
 			}
 		}
 	}

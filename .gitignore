@@ -3,3 +3,5 @@
 ################################################################################
 
 /ProjectLiberty/.vs/ProjectLiberty/v15/Server/sqlite3
+/ProjectLiberty/obj/Debug
+/ProjectLiberty/bin/Debug

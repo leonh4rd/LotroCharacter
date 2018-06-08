@@ -30,6 +30,7 @@ namespace ProjectLiberty
 			bonus.Add(EStat.PoisonResistance, 0.01);
 
 			_name = "Elf";
+			_type = LotroRaceType.ELF;
 		}
 
 		public override Dictionary<EStat, double> GetBonus()
